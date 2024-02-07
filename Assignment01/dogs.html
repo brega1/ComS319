@@ -35,6 +35,9 @@
       -webkit-user-select: none;
       -moz-user-select: none;
       user-select: none;
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
     }
 
     @media (min-width: 768px) {
@@ -133,59 +136,10 @@
     </symbol>
   </svg>
 
-  <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-    <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button"
-      aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
-      <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
-        <use href="#circle-half"></use>
-      </svg>
-      <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-    </button>
-    <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
-      <li>
-        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"
-          aria-pressed="false">
-          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
-            <use href="#sun-fill"></use>
-          </svg>
-          Light
-          <svg class="bi ms-auto d-none" width="1em" height="1em">
-            <use href="#check2"></use>
-          </svg>
-        </button>
-      </li>
-      <li>
-        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
-          aria-pressed="false">
-          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
-            <use href="#moon-stars-fill"></use>
-          </svg>
-          Dark
-          <svg class="bi ms-auto d-none" width="1em" height="1em">
-            <use href="#check2"></use>
-          </svg>
-        </button>
-      </li>
-      <li>
-        <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto"
-          aria-pressed="true">
-          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
-            <use href="#circle-half"></use>
-          </svg>
-          Auto
-          <svg class="bi ms-auto d-none" width="1em" height="1em">
-            <use href="#check2"></use>
-          </svg>
-        </button>
-      </li>
-    </ul>
-  </div>
-
-
   <header data-bs-theme="dark">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Rega & Patel Pets</a>
+        <a class="navbar-brand" href="./index.html">Rega & Patel Pets</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -193,16 +147,16 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Authors</a>
+              <a class="nav-link" href="./about.html">Authors</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Dogs</a>
+              <a class="nav-link active" aria-current="page" href="./dogs.html">Dogs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Cats</a>
+              <a class="nav-link" href="./cats.html">Cats</a>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" aria-disabled="true">Birds</a>
@@ -218,7 +172,7 @@
   </header>
 
   <main>
-
+    <!----
     <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
@@ -275,7 +229,7 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div>
+    </div> -->
 
 
     <!-- Marketing messaging and featurettes
@@ -287,116 +241,103 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg>
-          <h2 class="fw-normal">Heading</h2>
-          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first
-            column.</p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          <img src="images/dogs/GermanShepard.jpg" alt="German Shepard" focusable="false"
+            class="bd-placeholder-img rounded-circle">
+          <h2 class="fw-normal">German Shepard<br><span class="text-body-secondary">Charan - 73
+              lbs</span></h2>
+          <p>German Shepherds are moderately active dogs and are described in breed standards as self
+            assured. The breed is marked by a willingness to learn and an eagerness to have a purpose. They are curious,
+            which makes them excellent guard dogs and suitable for search missions.</p>
+          <p><a class="btn btn-secondary" href="mailto:gpatel@iastate.edu">Show Interest &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg>
-          <h2 class="fw-normal">Heading</h2>
-          <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.
-          </p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          <img src="images/dogs/Basenji.jpg" alt="Basenji" focusable="false" class="bd-placeholder-img rounded-circle">
+          <h2 class="fw-normal">Basenji<br><span class="text-body-secondary">Jack - 23 lbs</h2>
+          <p>The Basenji, Africa's 'Barkless Dog,' is a compact, sweet-faced hunter of intelligence and
+            poise. They are unique and beguiling pets, best for owners who can meet their exercise needs and the
+            challenge of training this catlike canine. Basenjis are small, graceful hounds standing 16 or 17 inches at
+            the shoulder.</p>
+          <p><a class="btn btn-secondary" href="mailto:gpatel@iastate.edu">Show Interest &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg>
-          <h2 class="fw-normal">Heading</h2>
-          <p>And lastly this, the third column of representative placeholder content.</p>
+          <img src="images/dogs/Corgi.jpg" alt="Corgi" focusable="false" class="bd-placeholder-img rounded-circle">
+          <h2 class="fw-normal">Corgi<br><span class="text-body-secondary">Daisy - 27 lbs</h2>
+          <p>As herders bred to move cattle, they are fearless and independent. They are vigilant
+            watchdogs, with acute senses and a 'big dog' bark. Families who can meet their bold but kindly Pembroke's
+            need for activity and togetherness will never have a more loyal, loving pet.</p>
           <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading fw-normal lh-1">German Shepard <span class="text-body-secondary">Charan - 73
-              lbs</span>
-          </h2>
-          <p class="lead">German Shepherds are moderately active dogs and are described in breed standards as self
-            assured. The breed is marked by a willingness to learn and an eagerness to have a purpose. They are curious,
-            which makes them excellent guard dogs and suitable for search missions.</p>
-        </div>
-        <div class="col-md-5">
-          <img src="images/GermanShepard.jpg" alt="German Shepard" style="height:40%;width:auto;">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading fw-normal lh-1">Basenji <span class="text-body-secondary">Jack - 23 lbs</span>
-          </h2>
-          <p class="lead">The Basenji, Africa's 'Barkless Dog,' is a compact, sweet-faced hunter of intelligence and
-            poise. They are unique and beguiling pets, best for owners who can meet their exercise needs and the
-            challenge of training this catlike canine. Basenjis are small, graceful hounds standing 16 or 17 inches at
-            the shoulder.</p>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <img src="images/Basenji.jpg" alt="Basenji" style="height:40%;width:auto;">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading fw-normal lh-1">Corgi <span class="text-body-secondary">Daisy - 27 lbs</span>
-          </h2>
-          <p class="lead">As herders bred to move cattle, they are fearless and independent. They are vigilant
-            watchdogs, with acute senses and a 'big dog' bark. Families who can meet their bold but kindly Pembroke's
-            need for activity and togetherness will never have a more loyal, loving pet.</p>
-        </div>
-        <div class="col-md-5">
-          <img src="images/Corgi.jpg" alt="Corgi" style="height:40%;width:auto;">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading fw-normal lh-1">Shiba Inu <span class="text-body-secondary">Loki - 21 lbs</span>
-          </h2>
-          <p class="lead">Originally bred as a hunting dog, the Shiba Inu is among the world's oldest breeds and one of
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="images/dogs/ShibaInu.jpg" alt="Shiba Inu" focusable="false"
+            class="bd-placeholder-img rounded-circle">
+          <h2 class="fw-normal">Shiba Inu<br><span class="text-body-secondary">Loki - 21 lbs</h2>
+          <p>Originally bred as a hunting dog, the Shiba Inu is among the world's oldest breeds and one of
             six native to Japan. A smaller version of the Akita breed, the name Shiba Inu translates as 'small dog' in
             Japanese and it is a Spitz-type breed characterised by its thick coat, pointed ears and curly tail.</p>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <img src="images/ShibaInu.jpg" alt="Shiba Inu" style="height:40%;width:auto;">
-        </div>
-      </div>
+          <p><a class="btn btn-secondary" href="mailto:gpatel@iastate.edu">Show Interest &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="images/dogs/GoldenRetriever.jpg" alt="Golden Retriever" focusable="false"
+            class="bd-placeholder-img rounded-circle">
+          <h2 class="fw-normal">Golden Retriever<br><span class="text-body-secondary">Leo - 56 lbs</h2>
+          <p>The Golden Retriever is a Scottish breed of retriever dog of medium size. It is characterised by a gentle
+            and affectionate nature and a striking golden coat. It is commonly kept as a pet and is among the most
+            frequently registered breeds in several Western countries.</p>
+          <p><a class="btn btn-secondary" href="mailto:gpatel@iastate.edu">Show Interest &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="images/dogs/Husky.jpg" alt="Siberian Husky" focusable="false"
+            class="bd-placeholder-img rounded-circle">
+          <h2 class="fw-normal">Siberian Husky<br><span class="text-body-secondary">Nala - 52 lbs</h2>
+          <p>Siberian Husky, a thickly coated, compact sled dog of medium size and great endurance, was developed to
+            work in packs, pulling light loads at moderate speeds over vast frozen expanses. Sibes are friendly,
+            fastidious, and dignified.</p>
+          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
 
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="images/dogs/BorderCollie.jpg" alt="Border Collie" focusable="false"
+            class="bd-placeholder-img rounded-circle">
+          <h2 class="fw-normal">Border Collie<br><span class="text-body-secondary">Sheamus - 32 lbs</h2>
+          <p>The Border Collie is a British breed of herding dog of the collie type of medium size. It originates in the
+            region of the Anglo-Scottish border, and descends from the traditional sheepdogs once found all over the
+            British Isles. It is kept mostly as a working sheep-herding dog or as a companion animal.</p>
+          <p><a class="btn btn-secondary" href="mailto:gpatel@iastate.edu">Show Interest &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="images/dogs/Beagle.jpg" alt="Beagle" focusable="false" class="bd-placeholder-img rounded-circle">
+          <h2 class="fw-normal">Beagle<br><span class="text-body-secondary">Chase - 22 lbs</h2>
+          <p>The Beagle is a breed of small scent hound, similar in appearance to the much larger foxhound. The beagle
+            was developed primarily for hunting hare, known as beagling. Possessing a great sense of smell and superior
+            tracking instincts, the beagle is the primary breed used as a detection dog for prohibited agricultural
+            imports and foodstuffs in quarantine around the world. The beagle is a popular pet due to its size, good
+            temper, and a lack of inherited health problems.</p>
+          <p><a class="btn btn-secondary" href="mailto:gpatel@iastate.edu">Show Interest &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="images/dogs/YorkshireTerrier.jpg" alt="Siberian Husky" focusable="false"
+            class="bd-placeholder-img rounded-circle">
+          <h2 class="fw-normal">Yorkshire Terrier<br><span class="text-body-secondary">Frankie - 5 lbs</h2>
+          <p>Yorkies earned their living as ratters in mines and mills long before they became the beribboned lapdogs of
+            Victorian ladies. The Yorkshire Terrier is a compact, toy-size terrier of no more than seven pounds whose
+            crowning glory is a floor-length, silky coat of steel blue and a rich golden tan.</p>
+          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
     </div><!-- /.container -->
 
 
     <!-- FOOTER -->
     <footer class="container">
       <p class="float-end"><a href="#">Back to top</a></p>
-      <p>&copy; 2024 Rega & Patel Pets, Inc. &middot; <a href="mailto:brega@iastate.edu">Contact Bryce</a> &middot; <a
-          href="mailto:gpatel@iastate.edu">Contact Gavin</a></p>
+      <p>&copy; 2024 Rega & Patel Pets, Inc. &middot; <a href="mailto:brega@iastate.edu">Contact Bryce</a> &middot;
+        <a href="mailto:gpatel@iastate.edu">Contact Gavin</a>
+      </p>
     </footer>
   </main>
   <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
