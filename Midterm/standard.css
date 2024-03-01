@@ -1,0 +1,16 @@
+body {
+  font-family: 'Oswald', 'Ashdon Sans Serif Font', Hevletica, Nimbus Sans, sans-serif;
+}
+
+.navbar {
+  font-weight: bold;
+}
+
+.cardinal {
+  background-color: #C8102E;
+  color: #C8102E;
+}
+
+.gold {
+  color: #F1BE48;
+}
