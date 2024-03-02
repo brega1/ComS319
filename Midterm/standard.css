@@ -3,93 +3,118 @@ body {
   height: 100%;
   margin: 0;
   margin-top: 0px;
-  font-size: 16px;
   text-align: center;
   font-weight: bold;
   line-height: 1.8em;
   padding: 0px;
 }
 
-.container {
+/* Navigation Bar */
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
   width: 100%;
-  margin: 0%;
-  height: 100%;
-  padding-top: 0px;
 }
 
-.header {
-  color: #FFFFFF;
-  padding: 0px;
-  margin-top: -25px;
-  height: 30px;
-  line-height: 1.0em;
-}
-
-.footer {
-  padding: 20px;
-  font-size: 18px;
-  color: #FFFFFF;
-}
-
-a {
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 16px;
   text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: white;
+  color: #C8102E;
+}
+
+/* General Body */
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
   text-align: left;
-  padding: 7px;
-  color: #FFFFFF;
 }
 
-.navigation {
-  color: #FFFFFF;
-  text-decoration: none;
-  text-align: left;
-  list-style: none;
-  list-style-position: left;
-  vertical-align: center;
-  font-size: 23px;
-  width: 100%;
-  padding: 0px;
-  padding-top: 15px;
-
-  height: 100%;
+.main h1 {
+  font-size: 80px;
+  text-align: center;
+  color: #C8102E;
 }
 
-a:hover {
-  text-shadow: 0 0 1px white, 0 0 1px white, 0 0 1px white;
+.main h2 {
+  color: #C8102E;
 }
 
-li {
-  display: inline-block;
+/* Leading Content */
+
+.imageBlock {
+  padding: 10px;
+  text-align: center;
 }
 
-.content {
-  width: 100%;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.map {
+.imageBlock img {
   max-height: 500px;
   max-width: 100%;
   height: auto;
   width: auto;
 }
 
-.footerButtons {
-  margin: 2px;
-  display: inline-block;
-  color: #FFFFFF;
-  text-decoration: none;
-  text-align: center;
-  list-style: none;
-  list-style-position: center;
-  width: 100%;
-  padding: 2px;
+/* Vertical Lists */
+
+.verticalList {
+  padding: 1px 4px;
+  width: 95%;
+  margin: 2px 2.5%;
 }
 
-.cardinal {
+.verticalList li {
+  display: inline-block;
+  background-color: white;
+  color: gray;
+  padding: 5px 10px;
+  margin: 3px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.verticalList li strong {
+  margin: 2px;
+  color: #C8102E;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.verticalList li button {
+  border-width: 4px;
+  border-color: #C8102E;
+  border: solid;
+  font-weight: bold;
+  color: white;
+  width: 100px;
+}
+
+.verticalList li button:hover {
+  background-color: white;
+  color: #C8102E;
+}
+
+/* Horizontal Lists */
+
+
+
+/* Colors */
+
+.cardinal-bg {
   background-color: #C8102E;
 }
 
-.gold {
-  color: #F1BE48;
+.gold-bg {
+  background-color: #F1BE48;
 }
