@@ -96,6 +96,7 @@ body {
 
 .verticalList li button {
   border-width: 4px;
+  min-height: 30px;
   border-color: #C8102E;
   border: solid;
   font-weight: bold;
