@@ -149,6 +149,30 @@ body {
   width: 100%;
 }
 
+/* Buttons */
+
+.majorButton {
+  min-width: 200px;
+  font-size: large;
+  min-height: 60px;
+  background-color: #C8102E;
+  border-color: #C8102E;
+  border: solid;
+  border-width: 2px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.majorButton:hover {
+  background-color: white;
+  border-color: #C8102E;
+  border: solid;
+  border-width: 2px;
+  color: #C8102E;
+}
+
 /* Colors */
 
 .cardinal-bg {
