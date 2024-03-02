@@ -1,0 +1,16 @@
+{
+  "meals": [
+    {
+      "name": "Chicken Bacon Ranch",
+      "price": 9.25,
+      "locationId": "lanceAndEllies",
+      "id": "chickenBaconRanch"
+    },
+    {
+      "name": "Clyde's Triple",
+      "price": 8.20,
+      "locationId": "clydes",
+      "id": "clydesTriple"
+    }
+  ]
+}

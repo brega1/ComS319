@@ -1,0 +1,16 @@
+{
+  "restaurants": [
+    {
+      "name": "Lance & Ellies",
+      "building": "Memorial Union",
+      "hours": "10AM - 4PM",
+      "id": "lanceAndEllies"
+    },
+    {
+      "name": "Clydes",
+      "building": "UDCC",
+      "hours": "8AM - 7PM",
+      "id": "clydes"
+    }
+  ]
+}

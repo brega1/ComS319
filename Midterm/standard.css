@@ -133,6 +133,9 @@ body {
 .horizontalList li img {
   margin: 2px;
   max-height: 200px;
+  max-width: 200px;
+  height: auto;
+  width: auto;
 }
 
 .horizontalList li strong {
