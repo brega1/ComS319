@@ -1,7 +1,7 @@
 function loadRestaurants(data, ulId) {
   var list = document.getElementById(ulId);
 
-  for (var i = 0; i < data.restaurants.length; i++){
+  for (var i = 0; i < data.restaurants.length; i++) {
     let name = data.restaurants[i].name;
     let building = data.restaurants[i].building;
     let hours = data.restaurants[i].hours;
@@ -23,7 +23,7 @@ function loadMeals(data, ulId, restaurantId) {
   /* Handle Loading Data */
   var list = document.getElementById(ulId);
 
-  for (var i = 0; i < data.meals.length; i++){
+  for (var i = 0; i < data.meals.length; i++) {
     let locationId = data.meals[i].locationId;
 
     /* Math against or ignore the restaurant filter argument */
@@ -36,7 +36,7 @@ function loadMeals(data, ulId, restaurantId) {
       let id = data.meals[i].id;
       let li = document.createElement("li");
       li.innerHTML = `
-        <img src="icons/${image}" alt="${name}">
+        <img src="images/${image}" alt="${name}">
         <div class=info>
           <strong>${name}</strong><br>Calories: ${calories}<br>$${price}
         </div>
@@ -55,7 +55,7 @@ function loadMeals(data, ulId, restaurantId) {
 function loadMealsVertical(data, ulId, restaurantId) {
   var list = document.getElementById(ulId);
 
-  for (var i = 0; i < data.meals.length; i++){
+  for (var i = 0; i < data.meals.length; i++) {
     let locationId = data.meals[i].locationId;
 
     /* Math against or ignore the restaurant filter argument */
@@ -86,7 +86,7 @@ function loadCustomizations(data, ulId, type) {
   else
     var selectedData = data.drinks;
 
-  for (var i = 0; i < selectedData.length; i++){
+  for (var i = 0; i < selectedData.length; i++) {
     let name = selectedData[i].name;
     // let price = (Math.round(selectedData[i].price * 100) / 100).toFixed(2);
     let image = selectedData[i].image;
@@ -95,7 +95,7 @@ function loadCustomizations(data, ulId, type) {
     let id = selectedData[i].id;
     let li = document.createElement("li");
     li.innerHTML = `
-      <img src="icons/${image}" alt="${name}">
+      <img src="images/${image}" alt="${name}">
       <div class=info>
         <strong>${name}</strong><br>Calories: ${calories}<br>$${price}
       </div>

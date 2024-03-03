@@ -11,6 +11,36 @@
       "building": "UDCC",
       "hours": "8AM - 7PM",
       "id": "clydes"
+    },
+    {
+      "name": "Hawthorn",
+      "building": "Frederikson Court Community Center",
+      "hours": "11AM - 8PM",
+      "id": "hawthorn"
+    },
+    {
+      "name": "Whirlybird's",
+      "building": "State Gymnasium",
+      "hours": "1PM - 10PM",
+      "id": "whirlybirds"
+    },
+    {
+      "name": "MU Market and Cafe",
+      "building": "Memorial Union",
+      "hours": "11AM - 5PM",
+      "id": "MUMarket"
+    },
+    {
+      "name": "West Side Market",
+      "building": "UDCC",
+      "hours": "11AM - 11PM",
+      "id": "westSideMarket"
+    },
+    {
+      "name": "East Side Market",
+      "building": "Maple-Willow-Larch Commons",
+      "hours": "11AM - 11PM",
+      "id": "eastSideMarket"
     }
   ],
   "meals": [
@@ -18,7 +48,7 @@
       "name": "Chicken Bacon Ranch",
       "price": 9.25,
       "calories": 750,
-      "image": "pepsi.webp",
+      "image": "ChickenBaconRanch.jfif",
       "locationId": "lanceAndEllies",
       "id": "chickenBaconRanch"
     },
@@ -26,41 +56,401 @@
       "name": "Clyde's Triple",
       "price": 8.20,
       "calories": 800,
-      "image": "pepsi.webp",
+      "image": "ClydesTriple.jfif",
       "locationId": "clydes",
       "id": "clydesTriple"
+    },
+    {
+      "name": "Anti-Pasta",
+      "price": 9.25,
+      "calories": 875,
+      "image": "AntiPasta.jfif",
+      "locationId": "lanceAndEllies",
+      "id": "antiPasta"
+    },
+    {
+      "name": "Buffalo Deli Chicken",
+      "price": 9.25,
+      "calories": 784,
+      "image": "BuffaloDeliChicken.jfif",
+      "locationId": "lanceAndEllies",
+      "id": "buffaloDeliChicken"
+    },
+    {
+      "name": "Duo",
+      "price": 9.25,
+      "calories": 692,
+      "image": "Duo.jfif",
+      "locationId": "lanceAndEllies",
+      "id": "duo"
+    },
+    {
+      "name": "Farmer",
+      "price": 9.25,
+      "calories": 856,
+      "image": "Farmer.jfif",
+      "locationId": "lanceAndEllies",
+      "id": "farmer"
+    },
+    {
+      "name": "Pepper Chicken",
+      "price": 9.25,
+      "calories": 692,
+      "image": "PepperChicken.jfif",
+      "locationId": "lanceAndEllies",
+      "id": "pepperChicken"
+    },
+    {
+      "name": "Hamburger",
+      "price": 7.50,
+      "calories": 582,
+      "image": "Hamburger.jfif",
+      "locationId": "clydes",
+      "id": "hamburger"
+    },
+    {
+      "name": "Cheeseburger",
+      "price": 8.00,
+      "calories": 663,
+      "image": "Cheeseburger.jfif",
+      "locationId": "clydes",
+      "id": "cheeseburger"
+    },
+    {
+      "name": "Deluxe Cheeseburger",
+      "price": 9.00,
+      "calories": 783,
+      "image": "DeluxeCheeseburger.jfif",
+      "locationId": "clydes",
+      "id": "deluxeCheeseburger"
+    },
+    {
+      "name": "Mushroom Swiss Burger",
+      "price": 9.75,
+      "calories": 665,
+      "image": "MushroomSwissBurger.jfif",
+      "locationId": "clydes",
+      "id": "mushroomSwissBurger"
+    },
+    {
+      "name": "American Grilled Cheese",
+      "price": 7.75,
+      "calories": 562,
+      "image": "AmericanGrilledCheese.jfif",
+      "locationId": "clydes",
+      "id": "americanGrilledCheese"
+    },
+    {
+      "name": "Ham & Cheese Grilled Cheese",
+      "price": 8.50,
+      "calories": 736,
+      "image": "Ham&CheeseGrilledCheese.jfif",
+      "locationId": "clydes",
+      "id": "hamAndCheese"
+    },
+    {
+      "name": "Hamburger",
+      "price": 8.00,
+      "calories": 624,
+      "image": "Hamburger.jfif",
+      "locationId": "hawthorn",
+      "id": "hamburger"
+    },
+    {
+      "name": "Cheeseburger",
+      "price": 8.50,
+      "calories": 694,
+      "image": "Cheeseburger.jfif",
+      "locationId": "hawthorn",
+      "id": "cheeseburger"
+    },
+    {
+      "name": "Buffalo Chicken Sandwich",
+      "price": 8.50,
+      "calories": 632,
+      "image": "BuffaloChickenSandwich.jfif",
+      "locationId": "hawthorn",
+      "id": "buffaloChickenSandwich"
+    },
+    {
+      "name": "Chicken Bacon Ranch Sandwich",
+      "price": 8.75,
+      "calories": 867,
+      "image": "ChickenBaconRanchSandwich.jfif",
+      "locationId": "hawthorn",
+      "id": "chickenBaconRanch"
+    },
+    {
+      "name": "Chicken Tenders",
+      "price": 7.75,
+      "calories": 749,
+      "image": "ChickenTenders.jfif",
+      "locationId": "hawthorn",
+      "id": "chickenTenders"
+    },
+    {
+      "name": "Chipotle Swiss Burger",
+      "price": 9.25,
+      "calories": 796,
+      "image": "ChipotleSwissBurger.jfif",
+      "locationId": "hawthorn",
+      "id": "chipotleSwissBurger"
+    },
+    {
+      "name": "Mixed Berry Yogurt Smoothie",
+      "price": 6.50,
+      "calories": 425,
+      "image": "MixedBerryYogurtSmoothie.jfif",
+      "locationId": "whirlybirds",
+      "id": "mixedBerry"
+    },
+    {
+      "name": "PB Banana Yogurt Smoothie",
+      "price": 6.50,
+      "calories": 477,
+      "image": "PBBananaYogurtSmoothie.jfif",
+      "locationId": "whirlybirds",
+      "id": "PBBanana"
+    },
+    {
+      "name": "Tropical Blues Yogurt Smoothie",
+      "price": 6.50,
+      "calories": 463,
+      "image": "TropicalBluesYogurtSmoothie.jfif",
+      "locationId": "whirlybirds",
+      "id": "tropicalBlues"
+    },
+    {
+      "name": "Strawberry Banana Yogurt Smoothie",
+      "price": 6.50,
+      "calories": 441,
+      "image": "StrawberryBananaYogurtSmoothie.jfif",
+      "locationId": "whirlybirds",
+      "id": "strawberryBanana"
+    },
+    {
+      "name": "Purple Mountain Fruit Smoothie",
+      "price": 7.50,
+      "calories": 173,
+      "image": "PurpleMountainFruitSmoothie.jfif",
+      "locationId": "whirlybirds",
+      "id": "purpleMountain"
+    },
+    {
+      "name": "PB&J Fruit Smoothie",
+      "price": 7.50,
+      "calories": 180,
+      "image": "PB&JFruitSmoothie.jfif",
+      "locationId": "whirlybirds",
+      "id": "PB&J"
+    },
+    {
+      "name": "Plain Bagel",
+      "price": 3.25,
+      "calories": 228,
+      "image": "PlainBagel.jfif",
+      "locationId": "MUMarket",
+      "id": "plainBagel"
+    },
+    {
+      "name": "Blueberry Muffin",
+      "price": 3.50,
+      "calories": 440,
+      "image": "BlueberryMuffin.jfif",
+      "locationId": "MUMarket",
+      "id": "blueberryMuffin"
+    },
+    {
+      "name": "Banana Bread",
+      "price": 3.50,
+      "calories": 460,
+      "image": "BananaBread.jfif",
+      "locationId": "MUMarket",
+      "id": "bananaBread"
+    },
+    {
+      "name": "Plain Bagel",
+      "price": 3.25,
+      "calories": 228,
+      "image": "PlainBagel.jfif",
+      "locationId": "westSideMarket",
+      "id": "plainBagel"
+    },
+    {
+      "name": "Lemon Poppy Seed Bread",
+      "price": 3.75,
+      "calories": 545,
+      "image": "LemonPoppySeedBread.jfif",
+      "locationId": "westSideMarket",
+      "id": "lemonPoppySeed"
+    },
+    {
+      "name": "Chocolate Chip Cookie",
+      "price": 2.50,
+      "calories": 384,
+      "image": "ChocolateChipCookie.jfif",
+      "locationId": "westSideMarket",
+      "id": "chocolateChipCookie"
+    },
+    {
+      "name": "Chocolate Croissant",
+      "price": 4.50,
+      "calories": 290,
+      "image": "ChocolateCroissant.jfif",
+      "locationId": "westSideMarket",
+      "id": "chocolateCroissant"
+    },
+    {
+      "name": "Iced Cinnamon Roll",
+      "price": 3.25,
+      "calories": 498,
+      "image": "IcedCinnamonRoll.jpg",
+      "locationId": "westSideMarket",
+      "id": "cinnamonRoll"
+    },
+    {
+      "name": "Glazed Donut",
+      "price": 2.75,
+      "calories": 399,
+      "image": "GlazedDonut.jfif",
+      "locationId": "westSideMarket",
+      "id": "Glazed Donut"
+    },
+    {
+      "name": "Plain Bagel",
+      "price": 3.25,
+      "calories": 228,
+      "image": "PlainBagel.jfif",
+      "locationId": "eastSideMarket",
+      "id": "plainBagel"
+    },
+    {
+      "name": "Lemon Poppy Seed Bread",
+      "price": 3.75,
+      "calories": 545,
+      "image": "LemonPoppySeedBread.jfif",
+      "locationId": "eastSideMarket",
+      "id": "lemonPoppySeed"
+    },
+    {
+      "name": "Chocolate Chip Cookie",
+      "price": 2.50,
+      "calories": 384,
+      "image": "ChocolateChipCookie.jfif",
+      "locationId": "eastSideMarket",
+      "id": "chocolateChipCookie"
+    },
+    {
+      "name": "Chocolate Croissant",
+      "price": 4.50,
+      "calories": 290,
+      "image": "ChocolateCroissant.jfif",
+      "locationId": "eastSideMarket",
+      "id": "chocolateCroissant"
+    },
+    {
+      "name": "Iced Cinnamon Roll",
+      "price": 3.25,
+      "calories": 498,
+      "image": "IcedCinnamonRoll.jpg",
+      "locationId": "eastSideMarket",
+      "id": "cinnamonRoll"
+    },
+    {
+      "name": "Glazed Donut",
+      "price": 2.75,
+      "calories": 399,
+      "image": "GlazedDonut.jfif",
+      "locationId": "eastSideMarket",
+      "id": "Glazed Donut"
     }
   ],
   "sides": [
     {
-      "name": "Classic Lays",
+      "name": "Lays Baked Chips",
       "price": 1.20,
-      "calories": 170,
-      "image": "pepsi.webp",
-      "id": "classicLays"
+      "calories": 120,
+      "image": "LaysBakedChips.jfif",
+      "id": "bakedLays"
     },
     {
-      "name": "Fruit Cup",
+      "name": "Fruit Salad",
       "price": 2.20,
-      "calories": 80,
-      "image": "pepsi.webp",
+      "calories": 57,
+      "image": "FruitSalad.jfif",
       "id": "fruitCup"
+    },
+    {
+      "name": "BBQ Kettle Chips",
+      "price": 1.20,
+      "calories": 200,
+      "image": "BBQKettleChips.jfif",
+      "id": "BBQKettleChips"
+    },
+    {
+      "name": "Salt & Vinegar Kettle Chips",
+      "price": 1.20,
+      "calories": 200,
+      "image": "Salt&VinegarKettleChips.jfif",
+      "id": "saltVinegarChips"
+    },
+    {
+      "name": "Chocolate Chip Cookie",
+      "price": 2.20,
+      "calories": 384,
+      "image": "ChocolateChipCookie.jfif",
+      "id": "chocolateChipCookie"
+    },
+    {
+      "name": "Gingersnap Cookie",
+      "price": 2.20,
+      "calories": 399,
+      "image": "GingersnapCookie.jfif",
+      "id": "gingersnapCookie"
     }
   ],
   "drinks": [
     {
       "name": "Pepsi",
-      "price": 1.00,
+      "price": 1.95,
       "calories": 120,
       "image": "pepsi.webp",
       "id": "pepsi"
     },
     {
       "name": "Diet Pepsi",
-      "price": 1.00,
-      "calories": 80,
-      "image": "pepsi.webp",
+      "price": 1.95,
+      "calories": 0,
+      "image": "DietPepsi.jfif",
       "id": "dietPepsi"
+    },
+    {
+      "name": "Mtn Dew",
+      "price": 1.95,
+      "calories": 170,
+      "image": "MtnDew.jfif",
+      "id": "mtnDew"
+    },
+    {
+      "name": "Starry",
+      "price": 1.95,
+      "calories": 90,
+      "image": "Starry.jfif",
+      "id": "starry"
+    },
+    {
+      "name": "Dr. Pepper",
+      "price": 1.95,
+      "calories": 150,
+      "image": "DrPepper.jfif",
+      "id": "drPepper"
+    },
+    {
+      "name": "Mug Root Beer",
+      "price": 1.95,
+      "calories": 160,
+      "image": "MugRootBeer.jfif",
+      "id": "mugRootBeer"
     }
   ]
 }
