@@ -1,0 +1,66 @@
+{
+  "restaurants": [
+    {
+      "name": "Lance & Ellies",
+      "building": "Memorial Union",
+      "hours": "10AM - 4PM",
+      "id": "lanceAndEllies"
+    },
+    {
+      "name": "Clyde's",
+      "building": "UDCC",
+      "hours": "8AM - 7PM",
+      "id": "clydes"
+    }
+  ],
+  "meals": [
+    {
+      "name": "Chicken Bacon Ranch",
+      "price": 9.25,
+      "calories": 750,
+      "image": "pepsi.webp",
+      "locationId": "lanceAndEllies",
+      "id": "chickenBaconRanch"
+    },
+    {
+      "name": "Clyde's Triple",
+      "price": 8.20,
+      "calories": 800,
+      "image": "pepsi.webp",
+      "locationId": "clydes",
+      "id": "clydesTriple"
+    }
+  ],
+  "sides": [
+    {
+      "name": "Classic Lays",
+      "price": 1.20,
+      "calories": 170,
+      "image": "pepsi.webp",
+      "id": "classicLays"
+    },
+    {
+      "name": "Fruit Cup",
+      "price": 2.20,
+      "calories": 80,
+      "image": "pepsi.webp",
+      "id": "fruitCup"
+    }
+  ],
+  "drinks": [
+    {
+      "name": "Pepsi",
+      "price": 1.00,
+      "calories": 120,
+      "image": "pepsi.webp",
+      "id": "pepsi"
+    },
+    {
+      "name": "Diet Pepsi",
+      "price": 1.00,
+      "calories": 80,
+      "image": "pepsi.webp",
+      "id": "dietPepsi"
+    }
+  ]
+}

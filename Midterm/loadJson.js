@@ -19,10 +19,40 @@ function loadRestaurants(data, ulId) {
   }
 }
 
+function loadMeals(data, ulId, restaurantId) {
+  /* Handle Loading Data */
+  var list = document.getElementById(ulId);
+
+  for (var i = 0; i < data.meals.length; i++){
+    let locationId = data.meals[i].locationId;
+
+    /* Math against or ignore the restaurant filter argument */
+    if (Object.is(restaurantId, null) || locationId == restaurantId) {
+      // let price = (Math.round(selectedData[i].price * 100) / 100).toFixed(2);
+      let name = data.meals[i].name;
+      let image = data.meals[i].image;
+      let price = (Math.round(data.meals[i].price * 100) / 100).toFixed(2);
+      let calories = data.meals[i].calories;
+      let id = data.meals[i].id;
+      let li = document.createElement("li");
+      li.innerHTML = `
+        <img src="icons/${image}" alt="${name}">
+        <div class=info>
+          <strong>${name}</strong><br>Calories: ${calories}<br>$${price}
+        </div>
+        <a href="customize.html?meal=${id}">
+          <button class="cardinal-bg">Choose</button>
+        </a>
+      `;
+      list.appendChild(li);
+    }
+  }
+}
+
 /**
  * @param restaurantId can be set to null to not filter for any one restaurant
  */
-function loadMeals(data, ulId, restaurantId) {
+function loadMealsVertical(data, ulId, restaurantId) {
   var list = document.getElementById(ulId);
 
   for (var i = 0; i < data.meals.length; i++){
@@ -60,12 +90,14 @@ function loadCustomizations(data, ulId, type) {
     let name = selectedData[i].name;
     // let price = (Math.round(selectedData[i].price * 100) / 100).toFixed(2);
     let image = selectedData[i].image;
+    let price = (Math.round(selectedData[i].price * 100) / 100).toFixed(2);
+    let calories = selectedData[i].calories;
     let id = selectedData[i].id;
     let li = document.createElement("li");
     li.innerHTML = `
       <img src="icons/${image}" alt="${name}">
       <div class=info>
-        <strong>${name}</strong>
+        <strong>${name}</strong><br>Calories: ${calories}<br>$${price}
       </div>
       <input type="checkbox" id="${id}" name="${name}" />
       `;

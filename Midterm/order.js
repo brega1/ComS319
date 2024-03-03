@@ -1,7 +1,7 @@
 /* Needs both JSONs in one function */
-fetch("./customizations.json")
+fetch("./data.json")
   .then(response => response.json())
   .then(customizations => 
-    fetch("./meals.json")
+    fetch("./data.json")
     .then(response => response.json())
     .then(meals => loadOrder(meals, customizations)));
