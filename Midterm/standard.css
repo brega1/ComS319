@@ -1,12 +1,20 @@
 body {
-  font-family: 'Oswald', 'Ashdon Sans Serif Font', Hevletica, Nimbus Sans, sans-serif;
-  height: 100%;
-  margin: 0;
+  /* Sizing */
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
   margin-top: 0px;
+
+  /* General Text */
+  font-family: 'Oswald', 'Ashdon Sans Serif Font', Hevletica, Nimbus Sans, sans-serif;
   text-align: center;
   font-weight: bold;
   line-height: 1.8em;
-  padding: 0px;
+
+  /* Ensure correct sapcing-- footer forced to bottom */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Navigation Bar */
@@ -33,12 +41,37 @@ body {
   color: #C8102E;
 }
 
+/* Footer */
+
+.footer {
+  padding: 20px;
+  font-size: 18px;
+}
+
+.footerButtons {
+  color: #C8102E;
+  text-align: center;
+  list-style: none;
+  list-style-position: center;
+  width: 100%;
+  padding: 2px;
+}
+
+.footerButtons li {
+  margin: 4px;
+  display: inline-block;
+}
+
+.footerButtons li a {
+  text-decoration: none;
+  color: #C8102E;
+}
+
 /* General Body */
 
 .main {
   padding: 16px;
   margin-top: 30px;
-  height: 1500px;
   text-align: left;
 }
 
