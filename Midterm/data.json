@@ -46,7 +46,7 @@
   "meals": [
     {
       "name": "Chicken Bacon Ranch",
-      "price": 9.25,
+      "price": 9.50,
       "calories": 750,
       "image": "ChickenBaconRanch.jfif",
       "locationId": "lanceAndEllies",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Anti-Pasta",
-      "price": 9.25,
+      "price": 9.55,
       "calories": 875,
       "image": "AntiPasta.jfif",
       "locationId": "lanceAndEllies",
@@ -70,7 +70,7 @@
     },
     {
       "name": "Buffalo Deli Chicken",
-      "price": 9.25,
+      "price": 9.60,
       "calories": 784,
       "image": "BuffaloDeliChicken.jfif",
       "locationId": "lanceAndEllies",
@@ -86,7 +86,7 @@
     },
     {
       "name": "Farmer",
-      "price": 9.25,
+      "price": 9.15,
       "calories": 856,
       "image": "Farmer.jfif",
       "locationId": "lanceAndEllies",
@@ -94,7 +94,7 @@
     },
     {
       "name": "Pepper Chicken",
-      "price": 9.25,
+      "price": 9.35,
       "calories": 692,
       "image": "PepperChicken.jfif",
       "locationId": "lanceAndEllies",
@@ -174,11 +174,11 @@
     },
     {
       "name": "Chicken Bacon Ranch Sandwich",
-      "price": 8.75,
+      "price": 9.25,
       "calories": 867,
       "image": "ChickenBaconRanchSandwich.jfif",
       "locationId": "hawthorn",
-      "id": "chickenBaconRanch"
+      "id": "chickenBaconRanchHawthorn"
     },
     {
       "name": "Chicken Tenders",
