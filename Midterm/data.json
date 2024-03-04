@@ -37,10 +37,10 @@
       "id": "westSideMarket"
     },
     {
-      "name": "East Side Market",
-      "building": "Maple-Willow-Larch Commons",
-      "hours": "11AM - 11PM",
-      "id": "eastSideMarket"
+      "name": "Sparks Cafe",
+      "building": "Student Innovation Center",
+      "hours": "9AM - 4PM",
+      "id": "sparksCafe"
     }
   ],
   "meals": [
@@ -152,7 +152,7 @@
       "name": "Hamburger",
       "price": 8.00,
       "calories": 624,
-      "image": "Hamburger.jfif",
+      "image": "HamburgerHawthorn.jfif",
       "locationId": "hawthorn",
       "id": "hamburger"
     },
@@ -160,7 +160,7 @@
       "name": "Cheeseburger",
       "price": 8.50,
       "calories": 694,
-      "image": "Cheeseburger.jfif",
+      "image": "CheeseburgerHawthorn.jfif",
       "locationId": "hawthorn",
       "id": "cheeseburger"
     },
@@ -245,12 +245,12 @@
       "id": "PB&J"
     },
     {
-      "name": "Plain Bagel",
-      "price": 3.25,
-      "calories": 228,
-      "image": "PlainBagel.jfif",
+      "name": "Bacon Breakfast Burrito",
+      "price": 6.50,
+      "calories": 599,
+      "image": "BaconBreakfastBurrito.jfif",
       "locationId": "MUMarket",
-      "id": "plainBagel"
+      "id": "baconBreakfastBurrito"
     },
     {
       "name": "Blueberry Muffin",
@@ -285,12 +285,12 @@
       "id": "lemonPoppySeed"
     },
     {
-      "name": "Chocolate Chip Cookie",
-      "price": 2.50,
-      "calories": 384,
-      "image": "ChocolateChipCookie.jfif",
+      "name": "Southwest Chicken Salad",
+      "price": 7.00,
+      "calories": 365,
+      "image": "SouthwestChickenSalad.jfif",
       "locationId": "westSideMarket",
-      "id": "chocolateChipCookie"
+      "id": "southwestChickenSalad"
     },
     {
       "name": "Chocolate Croissant",
@@ -314,55 +314,31 @@
       "calories": 399,
       "image": "GlazedDonut.jfif",
       "locationId": "westSideMarket",
-      "id": "Glazed Donut"
+      "id": "glazedDonut"
     },
     {
-      "name": "Plain Bagel",
-      "price": 3.25,
-      "calories": 228,
-      "image": "PlainBagel.jfif",
-      "locationId": "eastSideMarket",
-      "id": "plainBagel"
-    },
-    {
-      "name": "Lemon Poppy Seed Bread",
-      "price": 3.75,
-      "calories": 545,
-      "image": "LemonPoppySeedBread.jfif",
-      "locationId": "eastSideMarket",
-      "id": "lemonPoppySeed"
-    },
-    {
-      "name": "Chocolate Chip Cookie",
-      "price": 2.50,
-      "calories": 384,
-      "image": "ChocolateChipCookie.jfif",
-      "locationId": "eastSideMarket",
-      "id": "chocolateChipCookie"
-    },
-    {
-      "name": "Chocolate Croissant",
-      "price": 4.50,
+      "name": "Banana Nut Muffin",
+      "price": 3.00,
       "calories": 290,
-      "image": "ChocolateCroissant.jfif",
-      "locationId": "eastSideMarket",
-      "id": "chocolateCroissant"
+      "image": "BananaNutMuffin.jfif",
+      "locationId": "sparksCafe",
+      "id": "bananaNutMuffin"
     },
     {
-      "name": "Iced Cinnamon Roll",
-      "price": 3.25,
-      "calories": 498,
-      "image": "IcedCinnamonRoll.jpg",
-      "locationId": "eastSideMarket",
-      "id": "cinnamonRoll"
+      "name": "Chicken Caesar Salad",
+      "price": 7.95,
+      "calories": 470,
+      "image": "ChickenCaesarSalad.jfif",
+      "locationId": "sparksCafe",
+      "id": "chickenCaesarSalad"
     },
     {
-      "name": "Glazed Donut",
-      "price": 2.75,
-      "calories": 399,
-      "image": "GlazedDonut.jfif",
-      "locationId": "eastSideMarket",
-      "id": "Glazed Donut"
+      "name": "Sausage Croissant Sandwich",
+      "price": 6.25,
+      "calories": 310,
+      "image": "SausageCroissantSandwich.jfif",
+      "locationId": "sparksCafe",
+      "id": "sausageCroissantSandwich"
     }
   ],
   "sides": [
