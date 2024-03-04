@@ -156,21 +156,28 @@ body {
 .horizontalList li {
   display: block;
   float: left;
-  background-color: white;
+  background-color: #C8102E;
   color: gray;
   text-align: center;
-  padding: 5px 10px;
-  margin: 3px 3px;
+  padding: 5px 5px;
+  margin: 1px 1px;
   min-width: 220px;
   width: min-content;
+  min-height: 380px;
+  flex-direction: column;
+}
+
+.horizontalList li .block {
+  background-color: white;
+  min-height: 380px;
 }
 
 .horizontalList li img {
   margin: 2px;
-  max-height: 200px;
+  height: 200px;
   max-width: 200px;
-  height: auto;
   width: auto;
+  object-fit: cover;
 }
 
 .horizontalList li strong {

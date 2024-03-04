@@ -36,6 +36,7 @@ function loadMeals(data, ulId, restaurantId) {
       let id = data.meals[i].id;
       let li = document.createElement("li");
       li.innerHTML = `
+        <div class="block">
         <img src="images/${image}" alt="${name}">
         <div class=info>
           <strong>${name}</strong><br>Calories: ${calories}<br>$${price}
@@ -43,6 +44,7 @@ function loadMeals(data, ulId, restaurantId) {
         <a href="customize.html?meal=${id}">
           <button class="cardinal-bg">Choose</button>
         </a>
+        </div>
       `;
       list.appendChild(li);
     }
@@ -95,11 +97,13 @@ function loadCustomizations(data, ulId, type) {
     let id = selectedData[i].id;
     let li = document.createElement("li");
     li.innerHTML = `
+      <div class="block">
       <img src="images/${image}" alt="${name}">
       <div class=info>
         <strong>${name}</strong><br>Calories: ${calories}<br>$${price}
       </div>
       <input type="checkbox" id="${id}" name="${name}" />
+      </div>
       `;
     list.appendChild(li);
   }
