@@ -154,7 +154,7 @@
       "calories": 624,
       "image": "HamburgerHawthorn.jfif",
       "locationId": "hawthorn",
-      "id": "hamburger"
+      "id": "hamburgerHawthorn"
     },
     {
       "name": "Cheeseburger",
@@ -162,7 +162,7 @@
       "calories": 694,
       "image": "CheeseburgerHawthorn.jfif",
       "locationId": "hawthorn",
-      "id": "cheeseburger"
+      "id": "cheeseburgerHawthorn"
     },
     {
       "name": "Buffalo Chicken Sandwich",
@@ -358,28 +358,28 @@
     },
     {
       "name": "BBQ Kettle Chips",
-      "price": 1.20,
+      "price": 1.25,
       "calories": 200,
       "image": "BBQKettleChips.jfif",
       "id": "BBQKettleChips"
     },
     {
       "name": "Salt & Vinegar Kettle Chips",
-      "price": 1.20,
+      "price": 1.25,
       "calories": 200,
       "image": "Salt&VinegarKettleChips.jfif",
       "id": "saltVinegarChips"
     },
     {
       "name": "Chocolate Chip Cookie",
-      "price": 2.20,
+      "price": 2.10,
       "calories": 384,
       "image": "ChocolateChipCookie.jfif",
       "id": "chocolateChipCookie"
     },
     {
       "name": "Gingersnap Cookie",
-      "price": 2.20,
+      "price": 2.10,
       "calories": 399,
       "image": "GingersnapCookie.jfif",
       "id": "gingersnapCookie"
@@ -388,14 +388,14 @@
   "drinks": [
     {
       "name": "Pepsi",
-      "price": 1.95,
+      "price": 1.90,
       "calories": 120,
       "image": "pepsi.webp",
       "id": "pepsi"
     },
     {
       "name": "Diet Pepsi",
-      "price": 1.95,
+      "price": 1.90,
       "calories": 0,
       "image": "DietPepsi.jfif",
       "id": "dietPepsi"
@@ -409,7 +409,7 @@
     },
     {
       "name": "Starry",
-      "price": 1.95,
+      "price": 1.90,
       "calories": 90,
       "image": "Starry.jfif",
       "id": "starry"
